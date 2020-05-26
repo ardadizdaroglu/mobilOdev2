@@ -7,8 +7,8 @@ Yıldız Teknik Üniversitesi Bilgi Teknolojileri Tezsiz Yüksek Lisans 2019-202
 İçerik :
 
 1. Görev, Doğumgünü, Toplantı vb. Etkinliklerin Yönetimi: 
-a. Listeleme,Ekleme,Silme,Güncelleme
-b. Günlük,Haftalık,Aylık Gösterim
+- Listeleme,Ekleme,Silme,Güncelleme
+- Günlük,Haftalık,Aylık Gösterim
 
 2. Hatırlatma Özelliği: 
 a. Tarih ve Zaman Atama, İstenilen Zamanlarda Hatırlatma
