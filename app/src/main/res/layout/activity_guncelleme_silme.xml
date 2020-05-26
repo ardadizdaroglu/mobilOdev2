@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuncellemeSilmeActivity"
+    android:background="@color/backgroundColor">
+    <include
+        android:id="@+id/toolbar_guncelleme_silme"
+        layout="@layout/toolbar_guncelleme_silme"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Baslik"
+                    android:padding="10dp"
+                    android:id="@+id/edit2"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/backgroundColor"
+                    android:textColor="@color/backgroundColor"
+                    android:background="@drawable/rounded_edittext"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Renk: "
+                    android:textColor="@color/textColor"
+                    android:id="@+id/denemeTxt"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/spinnerRenk2"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Kategori"
+                    android:padding="10dp"
+                    android:id="@+id/edit4"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/backgroundColor"
+                    android:textColor="@color/backgroundColor"
+                    android:background="@drawable/rounded_edittext"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Etiket"
+                    android:padding="10dp"
+                    android:id="@+id/edit5"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/backgroundColor"
+                    android:textColor="@color/backgroundColor"
+                    android:background="@drawable/rounded_edittext"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Tamamlandi mi: "
+                    android:textColor="@color/textColor"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/spinnerTamamlandi"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp">
+
+                <DatePicker
+                    android:id="@+id/pickerdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:background="#FFFFFF"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp">
+
+                <TimePicker
+                    android:id="@+id/pickertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
