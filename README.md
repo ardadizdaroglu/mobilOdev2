@@ -40,6 +40,7 @@ Gösterilmesi
 # Önemli Notlar
 1. APK dosyasını da ekledim. Projeyi indirdiğinizde app-debug.apk dosyasını telefona yüklerseniz çalışacaktır.
 2. Projeyi API 29'da çalıştırmanız gerekmektedir. API 26 yı aklıma gelen bütün yöntemlerle denememe rağmen bir yerde hata alıyorum, en basit Hello World projesi bile malesef çalışmıyor.
+3. "Varsayılan Hatırlatma Zamanı" özelliği yok.
 
 # Tespit Ettiğim Buglar (en kısa sürede çözeceğim :) )
 1. Diyelimki şuan 26.05.2020 12:15. Ve siz aynı gün 1. alarmı 12:16'a ve 2.alarmı 12:19'a alarm kurdunuz. İlk alarm 12:16'da ötünce, ayarlar ekranında seçtiğiniz sıklığa göre 12:19'a kadar 1.alarm ötecek. 12:19'dan itibaren sadece 2.alarm ötüyor, bir şekilde eski alarm çalışmamaya başlıyor
